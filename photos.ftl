@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-    <title>图库 - ${blog_title!}</title>
+    <title>失乐园 - ${blog_title!}</title>
     <meta charset="utf-8" />
     <@global.head />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -11,7 +11,7 @@
 <body class="is-loading-0 is-loading-1 is-loading-2">
 <div id="main">
     <header id="header">
-        <h1>图库</h1>
+        <h1>失乐园</h1>
         <p>${user.description!}</p>
         <ul class="icons">
             <!--
@@ -28,8 +28,8 @@
                 <#list photos as photo>
                     <article>
                         <a class="thumbnail" href="${photo.url}" data-position="left center"><img src="${photo.thumbnail}" alt="${photo.description}" /></a>
-                        <h2>${photo.name}</h2>
-                        <p>${photo.takeTime!}</p>
+                        <!--<h2>${photo.name}</h2>
+                        <p>${photo.takeTime!}</p>-->
                     </article>
                 </#list>
             </#if>
@@ -37,7 +37,7 @@
     </section>
     <footer id="footer">
         <ul class="copyright">
-            <li>&copy; ${blog_title!}.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a>.</li>
+            <li>&copy;2019 - ${user.nickname!} </li><li>Design: <a href="http://html5up.net">HTML5 UP</a>.</li>
         </ul>
     </footer>
 </div>

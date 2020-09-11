@@ -18,10 +18,10 @@
                     <div class="post-footer">
                         <div class="meta">
                             <div class="info">
-                                <i class="fa fa-sun-o"></i>
+                                <!--<i class="fa fa-sun-o"></i>-->
                                 <span class="date">${sheet.createTime?string("yyyy-MM-dd")}</span>
-                                <i class="fa fa-comment-o"></i>
-                                <a href="${sheet.fullPath!}#comment_widget">Comments</a>
+                                <!--<i class="fa fa-comment-o"></i>
+                                <a href="${sheet.fullPath!}#comment_widget">Comments</a>-->
                             </div>
                         </div>
                     </div>

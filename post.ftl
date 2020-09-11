@@ -18,10 +18,10 @@
                     <div class="post-footer">
                         <div class="meta">
                             <div class="info">
-                                <i class="fa fa-sun-o"></i>
+                                <!--<i class="fa fa-sun-o"></i>-->
                                 <span class="date">${post.createTime?string("yyyy-MM-dd")}</span>
-                                <i class="fa fa-comment-o"></i>
-                                <a href="${post.fullPath!}#comment_widget">Comments</a>
+                                <!--<i class="fa fa-comment-o"></i>
+                                <a href="${post.fullPath!}#comment_widget">Comments</a>-->
                                 <#if tags?size gt 0>
                                     <i class="fa fa-tag"></i>
                                     <#list tags as tag>
@@ -32,7 +32,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="share" style="display: inline-flex">
+                <!--<div class="share" style="display: inline-flex">
                     <div class="evernote">
                         <a href="javascript:(function(){EN_CLIP_HOST='http://www.evernote.com';try{var%20x=document.createElement('SCRIPT');x.type='text/javascript';x.src=EN_CLIP_HOST+'/public/bookmarkClipper.js?'+(new%20Date().getTime()/100000);document.getElementsByTagName('head')[0].appendChild(x);}catch(e){location.href=EN_CLIP_HOST+'/clip.action?url='+encodeURIComponent(location.href)+'&title='+encodeURIComponent(document.title);}})();"
                            ref="nofollow" target="_blank" class="fa fa-bookmark"></a>
@@ -45,7 +45,7 @@
                         <a href="http://twitter.com/home?status=${post.fullPath!},${blog_title!},${post.title};"
                            class="fa fa-twitter"></a>
                     </div>
-                </div>
+                </div>-->
                 <div class="pagination">
                     <ul class="clearfix">
                         <#if nextPost??>
